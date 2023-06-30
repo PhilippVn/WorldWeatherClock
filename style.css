@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightslategray;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#country{
+    background-color: pink;
+    width: fit-content;
+    opacity: 1;
+    border-radius: 5px;
+    border: 3px blue;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#name{
+    position: absolute;
+    background-color: gray;
+    width: fit-content;
+    opacity: 0;
+    border-radius: 5px;
+    border: 3px blue;
+    font-size: 1.5rem;
+}
+
+#time{
+    background-color: pink;
+    width: fit-content;
+    opacity: 1;
+    border-radius: 5px;
+    border: 3px blue;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#weather{
+    background-color: pink;
+    width: fit-content;
+    opacity: 1;
+    border-radius: 5px;
+    border: 3px blue;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+svg path{
+    cursor: pointer;
+}
+
+svg path:hover{
+    fill:grey
+}
+
+#countries-selector {
+    position: relative;
+    font-size: 1.5rem;
+    background-color:antiquewhite;
+}
